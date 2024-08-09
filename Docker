@@ -24,4 +24,5 @@ EXPOSE 3000
 
 # Run the application
 CMD ["node", "index.js"]
+docker build -t my-app -f ./path/to/Dockerfile .
 
